@@ -1,10 +1,7 @@
-# Trivias
+# Trivia Wars
 **Desarrollo de Aplicaciones Móviles (U-2019) - Proyecto**  
-**PWA - React Native**
+**Android**
 
 **Integrantes:**  
-Josseline Perdomo  
-Orianna Capote  
-Ricardo Baptista  
-Satoru Díaz  
-Sidney Lizardi  
+- Josseline Perdomo  
+- Ricardo Baptista  
