@@ -1,49 +1,123 @@
 <resources>
-    <style name="TriviaWarsTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.TriviaWars" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryVariant">@color/lightPurple</item>
         <item name="colorPrimaryDark">@color/darkPurple</item>
-        <item name="colorAccent">@color/magenta</item>
-        <item name="android:fontFamily">@font/monserrat</item>
+
+        <item name="colorSecondary">@color/magenta</item>
+        <item name="colorSecondaryVariant">@color/lightMagenta</item>
+
+        <item name="colorAccent">@color/cyan</item>
+        <item name="android:colorForeground">@color/darkGray</item>
+
+        <item name="colorOnSurface">@color/darkGray</item>
+
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textAppearance">@style/TextAppearance.TriviaWars.Body1</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.TriviaWars.Medium</item>
+        <item name="textAppearanceHeadline1">@style/TextAppearance.TriviaWars.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.TriviaWars.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.TriviaWars.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.TriviaWars.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.TriviaWars.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.TriviaWars.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.TriviaWars.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.TriviaWars.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.TriviaWars.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.TriviaWars.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.TriviaWars.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.TriviaWars.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.TriviaWars.Overline</item>
+
+        <item name="textInputStyle">@style/Widget.TriviaWars.TextInputLayout</item>
+        <item name="materialButtonStyle">@style/Widget.TriviaWars.RoundedButton</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.TriviaWars.OutlinedRoundedButton</item>
     </style>
 
-    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
-        <item name="android:textColorHint">@color/lightGray</item>
-        <item name="hintTextColor">@color/cyan</item>
-        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
-        <item name="boxCollapsedPaddingTop">2dp</item>
+    <!--  Font style : -->
+    <style name="TextAppearance.TriviaWars.Medium" parent="TextAppearance.AppCompat.Medium">
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="TextAppearance.TriviaWars" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/montserrat_light</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/montserrat_light</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/montserrat_light</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Body1" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="TextAppearance.TriviaWars.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/montserrat_medium</item>
     </style>
 
-    <style name="PasswordInputLayoutStyle" parent="TextInputLayoutStyle">
-        <item name="passwordToggleTint">@color/lightGray</item>
+    <style name="Widget.TriviaWars.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+        <item name="materialThemeOverlay">
+            @style/ThemeOverlay.TriviaWars.TextInputEditText
+        </item>
+        <item name="boxCollapsedPaddingTop">@dimen/box_collapsed_padding</item>
+        <item name="boxBackgroundColor">@color/purple</item>
+        <item name="boxStrokeColor">@color/design_box_stroke</item>
+        <item name="hintTextColor">?attr/colorAccent</item>
+        <item name="android:textColorHint">@color/design_text_hint</item>
     </style>
 
-    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
-        <item name="android:textColor">@color/text_input_text</item>
+    <style name="ThemeOverlay.TriviaWars.TextInputEditText" parent="ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox.Dense">
+        <item name="editTextStyle">@style/Widget.TriviaWars.TextInputEditText</item>
+        <item name="colorControlActivated">?attr/colorAccent</item>
+    </style>
+
+    <style name="Widget.TriviaWars.TextInputEditText"
+        parent="Widget.MaterialComponents.TextInputEditText.FilledBox.Dense">
         <item name="android:paddingTop">20dp</item>
         <item name="android:paddingBottom">5dp</item>
-        <item name="android:background">@drawable/text_input_background</item>
+        <item name="android:textColor">@color/design_text_input</item>
     </style>
 
-    <style name="RoundedButtonStyle" parent="Widget.MaterialComponents.Button">
+    <style name="Widget.TriviaWars.RoundedButton" parent="Widget.MaterialComponents.Button">
         <item name="backgroundTint">@color/magenta</item>
-        <item name="cornerRadius">25dp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">@dimen/corner_radius</item>
     </style>
 
-    <style name="OutlineRoundedButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+    <style name="Widget.TriviaWars.OutlinedRoundedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="strokeColor">@color/magenta</item>
         <item name="android:textColor">@color/magenta</item>
-        <item name="cornerRadius">25dp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">@dimen/corner_radius</item>
     </style>
 
-    <style name="TriviaWarsTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
+<!--    <style name="bja" parent="Widget.MaterialComponents.NavigationView">-->
+<!--        <item name="itemIconTint"></item>-->
+<!--        <item name="itemTextColor"></item>-->
+<!--    </style>-->
 </resources>
