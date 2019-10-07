@@ -27,7 +27,7 @@ public class LocationLiveData extends LiveData<Location> {
     private LocationSettingsRequest locationSettingsRequest;
 
 
-    private FusedLocationProviderClient fusedLocationProviderClient ;
+    private FusedLocationProviderClient fusedLocationProviderClient;
     private LocationRequest locationRequest;
     private LocationCallback locationCallback;
 
@@ -61,7 +61,7 @@ public class LocationLiveData extends LiveData<Location> {
                 super.onLocationResult(locationResult);
                 Location location = locationResult.getLastLocation();
 
-                Log.d(TAG, String.format("prev latitude: %s - prev longitude: %s",
+                Log.d(TAG, String.format("Latitude: %s - Longitude: %s",
                         location.getLatitude(),
                         location.getLongitude()));
                 setValue(location);
@@ -76,8 +76,7 @@ public class LocationLiveData extends LiveData<Location> {
                 .addOnSuccessListener(new OnSuccessListener<LocationSettingsResponse>() {
                     @Override
                     public void onSuccess(LocationSettingsResponse locationSettingsResponse) {
-                        Log.i(TAG, "All location settings are satisfied.");
-                        //noinspection MissingPermission
+                        Log.i(TAG, "Location Settings son correctas.");
                         fusedLocationProviderClient.requestLocationUpdates(locationRequest,
                                 locationCallback, Looper.myLooper());
                     }
