@@ -1,4 +1,4 @@
-package ve.ucv.triviawars;
+package ve.ucv.triviawars.ui;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -17,6 +17,9 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.navigation.NavigationView;
+
+import ve.ucv.triviawars.AuthActivity;
+import ve.ucv.triviawars.R;
 
 public class MainActivity extends AppCompatActivity implements
         NavigationView.OnNavigationItemSelectedListener {
