@@ -12,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import ve.ucv.triviawars.ui.MainActivity;
+
 public class SettingsFragment extends Fragment {
 
     private SettingsViewModel mViewModel;
