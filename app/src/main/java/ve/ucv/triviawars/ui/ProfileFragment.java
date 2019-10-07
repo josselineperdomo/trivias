@@ -1,25 +1,24 @@
-package ve.ucv.triviawars;
-
-import androidx.lifecycle.ViewModelProviders;
+package ve.ucv.triviawars.ui;
 
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import ve.ucv.triviawars.ui.MainActivity;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProviders;
 
-public class SettingsFragment extends Fragment {
+import ve.ucv.triviawars.viewmodels.ProfileViewModel;
+import ve.ucv.triviawars.R;
 
-    private SettingsViewModel mViewModel;
+public class ProfileFragment extends Fragment {
 
-    public static SettingsFragment newInstance() {
-        return new SettingsFragment();
+    private ProfileViewModel mViewModel;
+
+    public static ProfileFragment newInstance() {
+        return new ProfileFragment();
     }
 
     @Override
@@ -29,13 +28,13 @@ public class SettingsFragment extends Fragment {
         if (mainActivity != null) {
             mainActivity.lockDrawerNavigation();
         }
-        return inflater.inflate(R.layout.fragment_settings, container, false);
+        return inflater.inflate(R.layout.fragment_profile, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(SettingsViewModel.class);
+        mViewModel = ViewModelProviders.of(this).get(ProfileViewModel.class);
         // TODO: Use the ViewModel
     }
 

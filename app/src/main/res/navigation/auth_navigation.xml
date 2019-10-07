@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/authLoginFragment"
-        android:name="ve.ucv.triviawars.AuthLoginFragment"
+        android:name="ve.ucv.triviawars.ui.AuthLoginFragment"
         android:label="fragment_auth_login"
         tools:layout="@layout/fragment_auth_login" >
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/authSignUpFragment"
-        android:name="ve.ucv.triviawars.AuthSignUpFragment"
+        android:name="ve.ucv.triviawars.ui.AuthSignUpFragment"
         android:label="fragment_auth_sign_up"
         tools:layout="@layout/fragment_auth_sign_up" >
         <argument

@@ -7,27 +7,27 @@
 
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="ve.ucv.triviawars.DashboardFragment"
+        android:name="ve.ucv.triviawars.ui.DashboardFragment"
         android:label="@string/dashboard_title"
         tools:layout="@layout/fragment_dashboard" />
     <fragment
         android:id="@+id/aboutUsFragment"
-        android:name="ve.ucv.triviawars.AboutUsFragment"
+        android:name="ve.ucv.triviawars.ui.AboutUsFragment"
         android:label="@string/about_us_title"
         tools:layout="@layout/fragment_about_us" />
     <fragment
         android:id="@+id/faqFragment"
-        android:name="ve.ucv.triviawars.FaqFragment"
+        android:name="ve.ucv.triviawars.ui.FaqFragment"
         android:label="@string/faq_title"
         tools:layout="@layout/fragment_faq" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="ve.ucv.triviawars.SettingsFragment"
+        android:name="ve.ucv.triviawars.ui.SettingsFragment"
         android:label="@string/settings_title"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="ve.ucv.triviawars.ProfileFragment"
+        android:name="ve.ucv.triviawars.ui.ProfileFragment"
         android:label="@string/profile_title"
         tools:layout="@layout/fragment_profile" />
 </navigation>

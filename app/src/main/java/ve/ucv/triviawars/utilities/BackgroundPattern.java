@@ -1,7 +1,9 @@
-package ve.ucv.triviawars;
+package ve.ucv.triviawars.utilities;
 
 
 import java.util.Random;
+
+import ve.ucv.triviawars.R;
 
 public enum  BackgroundPattern {
     PATTERN_1(R.drawable.bg_pattern_1),

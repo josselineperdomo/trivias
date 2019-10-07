@@ -1,4 +1,4 @@
-package ve.ucv.triviawars;
+package ve.ucv.triviawars.ui;
 
 
 import android.os.Bundle;
@@ -8,16 +8,14 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
+import ve.ucv.triviawars.R;
 import ve.ucv.triviawars.ui.MainActivity;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class AboutUsFragment extends Fragment {
+public class FaqFragment extends Fragment {
 
 
-    public AboutUsFragment() {
+    public FaqFragment() {
         // Required empty public constructor
     }
 
@@ -30,7 +28,7 @@ public class AboutUsFragment extends Fragment {
             mainActivity.lockDrawerNavigation();
         }
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about_us, container, false);
+        return inflater.inflate(R.layout.fragment_faq, container, false);
     }
 
 }
