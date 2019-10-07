@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
+import ve.ucv.triviawars.ui.MainActivity;
+
 
 public class FaqFragment extends Fragment {
 

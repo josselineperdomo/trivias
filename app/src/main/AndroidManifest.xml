@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TriviaWars">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ui.MainActivity"></activity>
         <activity android:name=".AuthActivity"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -25,4 +25,5 @@
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 </manifest>
