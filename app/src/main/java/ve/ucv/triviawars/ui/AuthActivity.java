@@ -1,8 +1,10 @@
-package ve.ucv.triviawars;
+package ve.ucv.triviawars.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import ve.ucv.triviawars.R;
 
 public class AuthActivity extends AppCompatActivity {
 

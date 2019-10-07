@@ -1,9 +1,11 @@
-package ve.ucv.triviawars;
+package ve.ucv.triviawars.viewmodels;
 
 import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
+
+import ve.ucv.triviawars.data.LocationLiveData;
 
 public class DashboardViewModel extends AndroidViewModel {
     private LocationLiveData locationLiveData;

@@ -1,4 +1,4 @@
-package ve.ucv.triviawars;
+package ve.ucv.triviawars.viewmodels;
 
 import androidx.lifecycle.ViewModel;
 

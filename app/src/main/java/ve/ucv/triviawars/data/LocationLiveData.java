@@ -1,4 +1,4 @@
-package ve.ucv.triviawars;
+package ve.ucv.triviawars.data;
 
 import android.content.Context;
 import android.location.Location;

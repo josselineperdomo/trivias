@@ -1,4 +1,4 @@
-package ve.ucv.triviawars;
+package ve.ucv.triviawars.ui;
 
 import android.Manifest;
 import android.content.Context;
@@ -21,7 +21,9 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import ve.ucv.triviawars.ui.MainActivity;
+import ve.ucv.triviawars.R;
+import ve.ucv.triviawars.utilities.BackgroundPattern;
+import ve.ucv.triviawars.viewmodels.DashboardViewModel;
 
 public class DashboardFragment extends Fragment {
 

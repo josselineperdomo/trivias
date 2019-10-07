@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@null"
-    tools:context=".AuthSignUpFragment">
+    tools:context=".ui.AuthSignUpFragment">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/sign_up_input_layout_email"

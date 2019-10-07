@@ -1,4 +1,4 @@
-package ve.ucv.triviawars;
+package ve.ucv.triviawars.ui;
 
 
 import android.content.Intent;
@@ -15,6 +15,7 @@ import androidx.navigation.Navigation;
 
 import com.google.android.material.button.MaterialButton;
 
+import ve.ucv.triviawars.R;
 import ve.ucv.triviawars.ui.MainActivity;
 
 
