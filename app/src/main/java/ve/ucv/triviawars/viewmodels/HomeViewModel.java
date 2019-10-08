@@ -7,10 +7,10 @@ import androidx.lifecycle.AndroidViewModel;
 
 import ve.ucv.triviawars.data.LocationLiveData;
 
-public class DashboardViewModel extends AndroidViewModel {
+public class HomeViewModel extends AndroidViewModel {
     private LocationLiveData locationLiveData;
 
-    public DashboardViewModel(@NonNull Application application) {
+    public HomeViewModel(@NonNull Application application) {
         super(application);
         locationLiveData = new LocationLiveData(application.getApplicationContext());
     }

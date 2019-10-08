@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="ve.ucv.triviawars.ui.DashboardFragment"
+        android:name="ve.ucv.triviawars.ui.DashboardViewPagerFragment"
         android:label="@string/dashboard_title"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard_view_pager" />
     <fragment
         android:id="@+id/aboutUsFragment"
         android:name="ve.ucv.triviawars.ui.AboutUsFragment"

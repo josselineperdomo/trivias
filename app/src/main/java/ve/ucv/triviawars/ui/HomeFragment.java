@@ -1,5 +1,6 @@
 package ve.ucv.triviawars.ui;
 
+
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -10,62 +11,53 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import ve.ucv.triviawars.R;
 import ve.ucv.triviawars.utilities.BackgroundPattern;
-import ve.ucv.triviawars.viewmodels.DashboardViewModel;
+import ve.ucv.triviawars.viewmodels.HomeViewModel;
 
-public class DashboardFragment extends Fragment {
 
-    private static final String TAG = DashboardFragment.class.getName();
+public class HomeFragment extends Fragment {
 
+    private static final String TAG = HomeFragment.class.getName();
     private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 100;
-
     private Context context;
-    private FragmentActivity fragmentActivity;
 
-    private DashboardViewModel viewModel;
-    private FrameLayout frameLayout;
+    private HomeViewModel viewModel;
+    private LinearLayout rootLayout;
     private int backgroundPatternId;
 
-    public static DashboardFragment newInstance() {
-        return new DashboardFragment();
-    }
 
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
-                             @Nullable Bundle savedInstanceState) {
-        this.context = getContext();
-        MainActivity mainActivity = (MainActivity)getContext();
-        if (mainActivity != null) {
-            mainActivity.unlockDrawerNavigation();
-        }
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        context = getContext();
 
-        return inflater.inflate(R.layout.fragment_dashboard, container, false);
+        return inflater.inflate(R.layout.fragment_home, container, false);
     }
+
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        frameLayout = view.findViewById(R.id.dashboard_main_layout);
+
+        rootLayout = view.findViewById(R.id.home_main_layout);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        viewModel = ViewModelProviders.of(this).get(DashboardViewModel.class);
-
-        fragmentActivity = getActivity();
+        viewModel = ViewModelProviders.of(this).get(HomeViewModel.class);
         invokeLocationAction();
     }
 
@@ -76,7 +68,7 @@ public class DashboardFragment extends Fragment {
                 backgroundPatternId = BackgroundPattern.getRandomPattern().getPatternId();
                 Drawable backgroundPatternDrawable = ResourcesCompat.getDrawable(getResources(),
                         backgroundPatternId, null);
-                frameLayout.setBackground(backgroundPatternDrawable);
+                rootLayout.setBackground(backgroundPatternDrawable);
             }
         };
     }
@@ -89,27 +81,29 @@ public class DashboardFragment extends Fragment {
     }
 
     private void requestPermissions() {
-        boolean shouldProvideRationale =
-                ActivityCompat.shouldShowRequestPermissionRationale(fragmentActivity,
-                        Manifest.permission.ACCESS_FINE_LOCATION);
+        boolean shouldProvideRationale = shouldShowRequestPermissionRationale(Manifest.permission.ACCESS_FINE_LOCATION);
+
         if (!shouldProvideRationale) {
-            Log.i(TAG, "Requesting permission");
-            ActivityCompat.requestPermissions(fragmentActivity,
-                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
-                    REQUEST_PERMISSIONS_REQUEST_CODE);
+            Log.i(TAG, "Solicitando permiso");
+            requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_PERMISSIONS_REQUEST_CODE);
         }
     }
+
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         Log.i(TAG, "onRequestPermissionResult");
+
         if (requestCode == REQUEST_PERMISSIONS_REQUEST_CODE) {
             if (grantResults.length <= 0) {
-                Log.i(TAG, "User interaction was cancelled.");
-            } else if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Log.i(TAG, "Permission granted, updates requested, starting location updates");
-                invokeLocationAction();
+                Log.i(TAG, "User interaction fue cancelada.");
+
+            } else {
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    Log.i(TAG, "Permiso concedido, comenzando actualizaciones");
+                    invokeLocationAction();
+                }
             }
         }
     }
