@@ -40,9 +40,7 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         context = getContext();
-
         return inflater.inflate(R.layout.fragment_home, container, false);
     }
 
@@ -50,7 +48,6 @@ public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         rootLayout = view.findViewById(R.id.home_main_layout);
     }
 
@@ -65,10 +62,15 @@ public class HomeFragment extends Fragment {
         return new Observer<Location>() {
             @Override
             public void onChanged(@Nullable Location location) {
-                backgroundPatternId = BackgroundPattern.getRandomPattern().getPatternId();
-                Drawable backgroundPatternDrawable = ResourcesCompat.getDrawable(getResources(),
-                        backgroundPatternId, null);
-                rootLayout.setBackground(backgroundPatternDrawable);
+                if (location != null){
+                    backgroundPatternId = BackgroundPattern.getRandomPattern().getPatternId();
+                    Drawable backgroundPatternDrawable = ResourcesCompat.getDrawable(getResources(),
+                            backgroundPatternId, null);
+                    rootLayout.setBackground(backgroundPatternDrawable);
+                    Log.d(TAG, String.format("Latitude: %s - Longitude: %s",
+                            location.getLatitude(),
+                            location.getLongitude()));
+                }
             }
         };
     }

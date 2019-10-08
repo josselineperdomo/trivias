@@ -20,7 +20,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 public class LocationLiveData extends LiveData<Location> {
     private static final long UPDATE_INTERVAL_IN_MILLISECONDS = 15000;
     private static final long FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS = 10000;
-    private final static int MIN_DISPLACEMENT_REQUEST_METRES = 5;
+    private final static int MIN_DISPLACEMENT_REQUEST_METRES = 2;
     private final String TAG = this.getClass().getName();
 
     private SettingsClient settingsClient;
