@@ -1,0 +1,842 @@
+[
+  {
+    "id": 0,
+    "triviaId": 0,
+    "points": 200,
+    "question": "Which movie released in 2016 features Superman and Batman fighting?",
+    "answer": "Batman v Superman: Dawn of Justice",
+    "incorrectAnswers": [
+      "Batman v Superman: Superapocalypse",
+      "Batman v Superman: Black of Knight",
+      "Batman v Superman: Knightfall"
+    ]
+  },
+  {
+    "id": 1,
+    "triviaId": 0,
+    "points": 200,
+    "question": "Who played Deputy Marshal Samuel Gerard in the 1993 film 'The Fugitive'?",
+    "answer": "Tommy Lee Jones",
+    "incorrectAnswers": [
+      "Harrison Ford",
+      "Harvey Keitel",
+      "Martin Landau"
+    ]
+  },
+  {
+    "id": 2,
+    "triviaId": 0,
+    "points": 200,
+    "question": "What was Dorothy's surname in 'The Wizard Of Oz'?",
+    "answer": "Gale",
+    "incorrectAnswers": [
+      "Perkins",
+      "Day",
+      "Parker"
+    ]
+  },
+  {
+    "id": 3,
+    "triviaId": 0,
+    "points": 200,
+    "question": "What is the orange and white bot's name in 'Star Wars: The Force Awakens'?",
+    "answer": "BB-8",
+    "incorrectAnswers": [
+      "BB-3",
+      "AA-A",
+      "R2-D2"
+    ]
+  },
+  {
+    "id": 4,
+    "triviaId": 0,
+    "points": 200,
+    "question": "Which of these actors/actresses is NOT a part of the cast for the 2016 movie 'Suicide Squad'?",
+    "answer": "Scarlett Johansson",
+    "incorrectAnswers": [
+      "Jared Leto",
+      "Will Smith",
+      "Margot Robbie"
+    ]
+  },
+  {
+    "id": 5,
+    "triviaId": 0,
+    "points": 200,
+    "question": "Which of these movies did Jeff Bridges not star in?",
+    "answer": "The Hateful Eight",
+    "incorrectAnswers": [
+      "Tron: Legacy",
+      "The Giver",
+      "True Grit"
+    ]
+  },
+  {
+    "id": 6,
+    "triviaId": 0,
+    "points": 200,
+    "question": "Which movie includes a giant bunny-like spirit who has magic powers including growing trees?",
+    "answer": "My Neighbor Totoro",
+    "incorrectAnswers": [
+      "Hop",
+      "Rise of the Guardians",
+      "Alice in Wonderland"
+    ]
+  },
+  {
+    "id": 7,
+    "triviaId": 0,
+    "points": 200,
+    "question": "In the 1992 film 'Army of Darkness', what name does Ash give to his double-barreled shotgun?",
+    "answer": "Boomstick",
+    "incorrectAnswers": [
+      "Bloomstick",
+      "Blastbranch",
+      "2-Pump Chump"
+    ]
+  },
+  {
+    "id": 8,
+    "triviaId": 0,
+    "points": 200,
+    "question": "Where does the original Friday The 13th movie take place?",
+    "answer": "Camp Crystal Lake",
+    "incorrectAnswers": [
+      "Packanack",
+      "Higgins Haven",
+      "Camp Forest Green"
+    ]
+  },
+  {
+    "id": 9,
+    "triviaId": 0,
+    "points": 200,
+    "question": "Which of these Movies was NOT released in 1996?",
+    "answer": "Gladiator",
+    "incorrectAnswers": [
+      "Independence Day",
+      "The Rock",
+      "Mission: Impossible"
+    ]
+  },
+  {
+    "id": 10,
+    "triviaId": 1,
+    "points": 200,
+    "question": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+    "answer": "Key",
+    "incorrectAnswers": [
+      "Sword",
+      "Pen",
+      "Cellphone"
+    ]
+  },
+  {
+    "id": 11,
+    "triviaId": 1,
+    "points": 200,
+    "question": "How would one say goodbye in Spanish?",
+    "answer": "Adi&oacute;s",
+    "incorrectAnswers": [
+      " Hola",
+      "Au Revoir",
+      "Salir"
+    ]
+  },
+  {
+    "id": 12,
+    "triviaId": 1,
+    "points": 200,
+    "question": "What is the largest organ of the human body?",
+    "answer": "Skin",
+    "incorrectAnswers": [
+      "Heart",
+      "large Intestine",
+      "Liver"
+    ]
+  },
+  {
+    "id": 13,
+    "triviaId": 1,
+    "points": 200,
+    "question": "Which American president appears on a one dollar bill?",
+    "answer": "George Washington",
+    "incorrectAnswers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "Benjamin Franklin"
+    ]
+  },
+  {
+    "id": 14,
+    "triviaId": 1,
+    "points": 200,
+    "question": "What is the name of the Jewish New Year?",
+    "answer": "Rosh Hashanah",
+    "incorrectAnswers": [
+      "Elul",
+      "New Year",
+      "Succoss"
+    ]
+  },
+  {
+    "id": 15,
+    "triviaId": 1,
+    "points": 200,
+    "question": "What type of animal was Harambe, who was shot after a child fell into it's enclosure at the Cincinnati Zoo?",
+    "answer": "Gorilla",
+    "incorrectAnswers": [
+      "Tiger",
+      "Panda",
+      "Crocodile"
+    ]
+  },
+  {
+    "id": 16,
+    "triviaId": 1,
+    "points": 200,
+    "question": "Who is depicted on the US hundred dollar bill?",
+    "answer": "Benjamin Franklin",
+    "incorrectAnswers": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson"
+    ]
+  },
+  {
+    "id": 17,
+    "triviaId": 1,
+    "points": 200,
+    "question": "How tall is the Burj Khalifa?",
+    "answer": "2,722 ft",
+    "incorrectAnswers": [
+      "2,717 ft",
+      "2,546 ft",
+      "3,024 ft"
+    ]
+  },
+  {
+    "id": 18,
+    "triviaId": 1,
+    "points": 200,
+    "question": "Which of the following presidents is not on Mount Rushmore?",
+    "answer": "John F. Kennedy",
+    "incorrectAnswers": [
+      "Theodore Roosevelt",
+      "Abraham Lincoln",
+      "Thomas Jefferson"
+    ]
+  },
+  {
+    "id": 19,
+    "triviaId": 1,
+    "points": 200,
+    "question": "What is Tasmania?",
+    "answer": "An Australian State",
+    "incorrectAnswers": [
+      "A flavor of Ben and Jerry's ice-cream",
+      "A Psychological Disorder",
+      "The Name of a Warner Brothers Cartoon Character"
+    ]
+  },
+  {
+    "id": 20,
+    "triviaId": 2,
+    "points": 200,
+    "question": "In base 2, what is 1 + 1?",
+    "answer": "10",
+    "incorrectAnswers": [
+      "Two (2)",
+      "01",
+      "11"
+    ]
+  },
+  {
+    "id": 21,
+    "triviaId": 2,
+    "points": 200,
+    "question": "In the hexadecimal system, what number comes after 9?",
+    "answer": "The Letter A",
+    "incorrectAnswers": [
+      "10",
+      "The Number 0",
+      "16"
+    ]
+  },
+  {
+    "id": 22,
+    "triviaId": 2,
+    "points": 200,
+    "question": "What are the first 6 digits of the number 'Pi'?",
+    "answer": "3.14159",
+    "incorrectAnswers": [
+      "3.14169",
+      "3.12423",
+      "3.25812"
+    ]
+  },
+  {
+    "id": 23,
+    "triviaId": 2,
+    "points": 200,
+    "question": "What is the Roman numeral for 500?",
+    "answer": "D",
+    "incorrectAnswers": [
+      "L",
+      "C",
+      "X"
+    ]
+  },
+  {
+    "id": 24,
+    "triviaId": 2,
+    "points": 200,
+    "question": "What is the first Mersenne prime over 1000?",
+    "answer": "1279",
+    "incorrectAnswers": [
+      "2203",
+      "1009",
+      "1069"
+    ]
+  },
+  {
+    "id": 25,
+    "triviaId": 2,
+    "points": 200,
+    "question": "What is the alphanumeric representation of the imaginary number?",
+    "answer": "i",
+    "incorrectAnswers": [
+      "e",
+      "n",
+      "x"
+    ]
+  },
+  {
+    "id": 26,
+    "triviaId": 2,
+    "points": 200,
+    "question": "The decimal number 31 in hexadecimal would be what?",
+    "answer": "1F",
+    "incorrectAnswers": [
+      "3D",
+      "2E",
+      "1B"
+    ]
+  },
+  {
+    "id": 27,
+    "triviaId": 2,
+    "points": 200,
+    "question": "The metric prefix 'atto-' makes a measurement how much smaller than the base unit?",
+    "answer": "One Quintillionth",
+    "incorrectAnswers": [
+      "One Billionth",
+      "One Quadrillionth",
+      "One Septillionth"
+    ]
+  },
+  {
+    "id": 28,
+    "triviaId": 2,
+    "points": 200,
+    "question": "What is the plane curve proposed by Descartes to challenge Fermat's extremum-finding techniques called?",
+    "answer": "Folium of Descartes",
+    "incorrectAnswers": [
+      "Elliptic Paraboloid of Descartes",
+      "Cartesian Coordinates",
+      "Descarte's Helicoid"
+    ]
+  },
+  {
+    "id": 29,
+    "triviaId": 2,
+    "points": 200,
+    "question": "What is the correct order of operations for solving equations?",
+    "answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+    "incorrectAnswers": [
+      "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
+      "Parentheses, Exponents, Addition, Substraction, Multiplication, Division",
+      "The order in which the operations are written."
+    ]
+  },
+  {
+    "id": 30,
+    "triviaId": 3,
+    "points": 200,
+    "question": "The body of the Egyptian Sphinx was based on which animal?",
+    "answer": "Lion",
+    "incorrectAnswers": [
+      "Bull",
+      "Horse",
+      "Dog"
+    ]
+  },
+  {
+    "id": 31,
+    "triviaId": 3,
+    "points": 200,
+    "question": "What state is the largest state of the United States of America?",
+    "answer": "Alaska",
+    "incorrectAnswers": [
+      "California",
+      "Texas",
+      "Washington"
+    ]
+  },
+  {
+    "id": 32,
+    "triviaId": 3,
+    "points": 200,
+    "question": "Which country does Austria not border?",
+    "answer": "France",
+    "incorrectAnswers": [
+      "Slovenia",
+      "Switzerland",
+      "Slovakia"
+    ]
+  },
+  {
+    "id": 33,
+    "triviaId": 3,
+    "points": 200,
+    "question": "How many federal states does Germany have?",
+    "answer": "16",
+    "incorrectAnswers": [
+      "13",
+      "32",
+      "25"
+    ]
+  },
+  {
+    "id": 34,
+    "triviaId": 3,
+    "imageUrl": "",
+    "points": 200,
+    "question": "How many countries does the United States share a land border with?",
+    "answer": "2",
+    "incorrectAnswers": [
+      "1",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": 35,
+    "triviaId": 3,
+    "points": 200,
+    "question": "Which of these is the name of the largest city in the US state Tennessee?",
+    "answer": "Memphis",
+    "incorrectAnswers": [
+      "Thebes",
+      "Alexandria",
+      "Luxor"
+    ]
+  },
+  {
+    "id": 36,
+    "triviaId": 3,
+    "points": 200,
+    "question": "The Space Needle is located in which city?",
+    "answer": "Seattle",
+    "incorrectAnswers": [
+      "Los Angeles",
+      "Toronto",
+      "Vancouver"
+    ]
+  },
+  {
+    "id": 37,
+    "triviaId": 3,
+    "points": 200,
+    "question": "How many stars are featured on New Zealand's flag?",
+    "answer": "4",
+    "incorrectAnswers": [
+      "5",
+      "2",
+      "0"
+    ]
+  },
+  {
+    "id": 38,
+    "triviaId": 3,
+    "points": 200,
+    "question": "How many countries does Mexico border?",
+    "answer": "3",
+    "incorrectAnswers": [
+      "2",
+      "4",
+      "1"
+    ]
+  },
+  {
+    "id": 39,
+    "triviaId": 3,
+    "points": 200,
+    "question": "Which of the following countries has a flag featuring a yellow lion wielding a sword on a dark red background?",
+    "answer": "Sri Lanka",
+    "incorrectAnswers": [
+      "Kiribati",
+      "Scotland",
+      "Bhutan"
+    ]
+  },
+  {
+    "id": 40,
+    "triviaId": 4,
+    "points": 200,
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci",
+    "incorrectAnswers": [
+      "Pablo Picasso",
+      "Claude Monet",
+      "Vincent van Gogh"
+    ]
+  },
+  {"id": 41,
+    "triviaId": 4,
+    "points": 200,
+    "question": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+    "answer": "Neoplasticism",
+    "incorrectAnswers": [
+      "Precisionism",
+      "Cubism",
+      "Impressionism"
+    ]
+  },
+  {
+    "id": 42,
+    "triviaId": 4,
+    "points": 200,
+    "question": "What French sculptor designed the Statue of Liberty? ",
+    "answer": "Frédéric Auguste Bartholdi",
+    "incorrectAnswers": [
+      "Jean-Léon Gérôme",
+      "Auguste Rodin",
+      "Henri Matisse"
+    ]
+  },
+  {
+    "id": 43,
+    "triviaId": 4,
+    "points": 200,
+    "question": "What nationality was the surrealist painter Salvador Dali?",
+    "answer": "Spanish",
+    "incorrectAnswers": [
+      "Italian",
+      "French",
+      "Portuguese"
+    ]
+  },
+  {
+    "id": 44,
+    "triviaId": 4,
+    "points": 200,
+    "question": "What year did Albrecht D&uuml;rer create the painting 'The Young Hare'?",
+    "answer": "1502",
+    "incorrectAnswers": [
+      "1702",
+      "1402",
+      "1602"
+    ]
+  },
+  {
+    "id": 45,
+    "triviaId": 4,
+    "points": 200,
+    "question": "What year was the Mona Lisa finished?",
+    "answer": "1504",
+    "incorrectAnswers": [
+      "1487",
+      "1523",
+      "1511"
+    ]
+  },
+  {
+    "id": 46,
+    "triviaId": 4,
+    "points": 200,
+    "question": "Who painted 'Swans Reflecting Elephants', 'Sleep', and 'The Persistence of Memory'?",
+    "answer": "Salvador Dali",
+    "incorrectAnswers": [
+      "Jackson Pollock",
+      "Vincent van Gogh",
+      "Edgar Degas"
+    ]
+  },
+  {
+    "id": 47,
+    "triviaId": 4,
+    "points": 200,
+    "question": "Which one of these paintings is not by Caspar David Friedrich?",
+    "answer": "The Black Sea",
+    "incorrectAnswers": [
+      "The Sea of Ice",
+      "Wanderer above the Sea of Fog",
+      "The Monk by the Sea"
+    ]
+  },
+  {
+    "id": 48,
+    "triviaId": 4,
+    "points": 200,
+    "question": "Which of these is not an additional variation of the color purple?",
+    "answer": "Kobicha",
+    "incorrectAnswers": [
+      "Byzantium",
+      "Pomp and Power",
+      "Palatinate"
+    ]
+  },
+  {
+    "id": 49,
+    "triviaId": 4,
+    "points": 200,
+    "question": "How many paint and pastel versions of 'The Scream' is Norwegian painter Edvard Munch believed to have produced?",
+    "answer": "4",
+    "incorrectAnswers": [
+      "1",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": 50,
+    "triviaId": 5,
+    "points": 200,
+    "question": "Who's the voice actor for Thrall in the Warcraft game series?",
+    "answer": "Chris Metzen",
+    "incorrectAnswers": [
+      "Ben Affleck",
+      "Jason Derulo",
+      "Jim Carrey"
+    ]
+  },
+  {
+    "id": 51,
+    "triviaId": 5,
+    "points": 200,
+    "question": "Who is the writer of the game 'Half-Life'?",
+    "answer": "Marc Laidlaw",
+    "incorrectAnswers": [
+      "Gabe Newell",
+      "Robin Walker",
+      "Chet Faliszek"
+    ]
+  },
+  {
+    "id": 52,
+    "triviaId": 5,
+    "points": 200,
+    "question": "In 'Undertale', how many main endings are there?",
+    "answer": "3",
+    "incorrectAnswers": [
+      "2",
+      "5",
+      "13"
+    ]
+  },
+  {
+    "id": 53,
+    "triviaId": 5,
+    "points": 200,
+    "question": "What was Frank West's job in 'Dead Rising'?",
+    "answer": "Photojournalist",
+    "incorrectAnswers": [
+      "Janitor",
+      "Chef",
+      "Taxi Driver"
+    ]
+  },
+  {
+    "id": 54,
+    "triviaId": 5,
+    "points": 200,
+    "question": "In the video game Overwatch, which playable character is infamous for saying 'It's high noon.'?",
+    "answer": "McCree",
+    "incorrectAnswers": [
+      "Hanzo",
+      "Pharah",
+      "Soldier: 76"
+    ]
+  },
+  {
+    "id": 55,
+    "triviaId": 5,
+    "points": 200,
+    "question": "Who stars in Brutal Legend?",
+    "answer": "Jack Black",
+    "incorrectAnswers": [
+      "Kanye West",
+      "Lemmy",
+      "Ozzy Osbourne"
+    ]
+  },
+  {
+    "id": 56,
+    "triviaId": 5,
+    "points": 200,
+    "question": "When was the top-down online RPG 'Space Station 13' released?",
+    "answer": "2003",
+    "incorrectAnswers": [
+      "2000",
+      "2010",
+      "2006"
+    ]
+  },
+  {
+    "id": 57,
+    "triviaId": 5,
+    "points": 200,
+    "question": "What were the first two blocks in 'Minecraft'?",
+    "answer": "Grass and Cobblestone",
+    "incorrectAnswers": [
+      "Grass and Stone",
+      "Crafting Table and Cobblestone",
+      "Cobblestone and Stone"
+    ]
+  },
+  {
+    "id": 58,
+    "triviaId": 5,
+    "points": 200,
+    "question": "What is the last name of the primary female protagonist of Final Fantasy VIII?",
+    "answer": "Heartilly",
+    "incorrectAnswers": [
+      "Loire",
+      "Almasy",
+      "Trepe"
+    ]
+  },
+  {
+    "id": 59,
+    "triviaId": 5,
+    "points": 200,
+    "question": "What is the name of the City in Saints Row The Third?",
+    "answer": "Steelport",
+    "incorrectAnswers": [
+      "Stilwater",
+      "Carcer",
+      "Liberty"
+    ]
+  },
+  {
+    "id": 60,
+    "triviaId": 6,
+    "points": 200,
+    "question": "The theme for the popular science fiction series 'Doctor Who' was composed by who?",
+    "answer": "Ron Grainer",
+    "incorrectAnswers": [
+      "Murray Gold",
+      "Delia Derbyshire",
+      "Peter Howell"
+    ]
+  },
+  {
+    "id": 61,
+    "triviaId": 6,
+    "points": 200,
+    "question": "In the show Stranger Things, what is Eleven's favorite breakfast food?",
+    "answer": "Eggo Waffles",
+    "incorrectAnswers": [
+      "Toast",
+      "Captain Crunch",
+      "Bacon and Eggs"
+    ]
+  },
+  {
+    "id": 62,
+    "triviaId": 6,
+    "points": 200,
+    "question": "How many seasons did 'Stargate SG-1' have?",
+    "answer": "10",
+    "incorrectAnswers": [
+      "3",
+      "7",
+      "12"
+    ]
+  },
+  {
+    "id": 63,
+    "triviaId": 6,
+    "points": 200,
+    "question": "In DuckTales, what is the name of the city where all the main characters live?",
+    "answer": "Duckburg",
+    "incorrectAnswers": [
+      "Duckwing",
+      "Tailspin",
+      "Wingford"
+    ]
+  },
+  {
+    "id": 64,
+    "triviaId": 6,
+    "points": 200,
+    "question": "In the Netflix show, Stranger Things, what song would Will sing to himself as he was missing?",
+    "answer": "Should I Stay or Should I Go?",
+    "incorrectAnswers": [
+      "Love Will Tear Us Apart",
+      "This Charming Man",
+      "Africa"
+    ]
+  },
+  {
+    "id": 65,
+    "triviaId": 6,
+    "points": 200,
+    "question": "What is the surname of the character Daryl in AMC's show The Walking Dead?",
+    "answer": "Dixon",
+    "incorrectAnswers": [
+      "Grimes",
+      "Dickinson",
+      "Dicketson"
+    ]
+  },
+  {
+    "id": 66,
+    "triviaId": 6,
+    "points": 200,
+    "question": "Who won Big Brother 2014 UK?",
+    "answer": "Helen Wood",
+    "incorrectAnswers": [
+      "Christopher Hall",
+      "Pauline Bennett",
+      "Pavandeep 'Pav' Paul"
+    ]
+  },
+  {
+    "id": 67,
+    "triviaId": 6,
+    "points": 200,
+    "question": "What is Meg's full name in 'Family Guy'?",
+    "answer": "Megatron Griffin",
+    "incorrectAnswers": [
+      "Who-Cares Griffin",
+      "Neil Griffin",
+      "Megan Griffin"
+    ]
+  },
+  {
+    "id": 68,
+    "triviaId": 6,
+    "points": 200,
+    "question": "In 'Star Trek', what is the Klingon delicacy of 'gagh' made from?",
+    "answer": "Serpent worms",
+    "incorrectAnswers": [
+      "Earthworms",
+      "Spaghetti noodles",
+      "Klingworms"
+    ]
+  },
+  {
+    "id": 69,
+    "triviaId": 6,
+    "points": 200,
+    "question": "What episode of 'Mr. Bean' saw him trying to prevent people from seeing him naked?",
+    "answer": "Mr. Bean in Room 426",
+    "incorrectAnswers": [
+      "Mr. Bean Goes to Town",
+      "The Trouble with Mr. Bean",
+      "Back to School Mr. Bean"
+    ]
+  }
+]

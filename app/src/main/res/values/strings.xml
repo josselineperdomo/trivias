@@ -34,7 +34,7 @@
     <string name="about_us_title">About us</string>
 
     <string name="dashboard_tabs_home">Home</string>
-    <string name="dashboard_tabs_topics">Topics</string>
+    <string name="dashboard_tabs_trivia">Trivia</string>
     <string name="dashboard_tabs_ranking">Ranking</string>
 
     <string name="logout_message">Are you sure you want to log out?\n\nIf you are current offline progress on your trivias, it will be lost.</string>
@@ -42,4 +42,12 @@
     <string name="cancel_dialog_action">Cancel</string>
 
     <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <string name="trivia_cover_img_desc">Cover picture of the current trivia</string>
+    <string name="follow_btn">Follow</string>
+    <string name="followers_summarize_tbl">Followers</string>
+    <string name="total_questions_summarize_tbl">Total Questions</string>
+    <string name="ranking_trivia_title">Ranking</string>
+    <string name="home_fav_trivia_title">Favorite Trivia</string>
+
+    <string name="trivia_followers">%d</string>
 </resources>

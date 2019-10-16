@@ -10,12 +10,9 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
-import ve.ucv.triviawars.viewmodels.ProfileViewModel;
 import ve.ucv.triviawars.R;
 
 public class ProfileFragment extends Fragment {
-
-    private ProfileViewModel mViewModel;
 
     public static ProfileFragment newInstance() {
         return new ProfileFragment();
@@ -29,13 +26,6 @@ public class ProfileFragment extends Fragment {
             mainActivity.lockDrawerNavigation();
         }
         return inflater.inflate(R.layout.fragment_profile, container, false);
-    }
-
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(ProfileViewModel.class);
-        // TODO: Use the ViewModel
     }
 
 }

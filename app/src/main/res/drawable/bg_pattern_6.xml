@@ -2,6 +2,6 @@
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/pattern_6"
     android:tileMode="repeat"
-    android:tint="@color/lightMagenta"
-    android:tintMode="multiply"
-    android:alpha="0.15"/>
+    android:tintMode="add"
+    android:tint="@color/almostWhite"
+    android:alpha="0.4"/>

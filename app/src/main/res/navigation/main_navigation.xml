@@ -9,7 +9,11 @@
         android:id="@+id/dashboardFragment"
         android:name="ve.ucv.triviawars.ui.DashboardViewPagerFragment"
         android:label="@string/dashboard_title"
-        tools:layout="@layout/fragment_dashboard_view_pager" />
+        tools:layout="@layout/fragment_dashboard_view_pager" >
+        <action
+            android:id="@+id/action_to_triviaDetail"
+            app:destination="@id/triviaDetailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/aboutUsFragment"
         android:name="ve.ucv.triviawars.ui.AboutUsFragment"
@@ -25,9 +29,38 @@
         android:name="ve.ucv.triviawars.ui.SettingsFragment"
         android:label="@string/settings_title"
         tools:layout="@layout/fragment_settings" />
+
     <fragment
         android:id="@+id/profileFragment"
         android:name="ve.ucv.triviawars.ui.ProfileFragment"
         android:label="@string/profile_title"
         tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/dashboardHomeFragment"
+        android:name="ve.ucv.triviawars.ui.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/userRankingFragment"
+        android:name="ve.ucv.triviawars.ui.UserRankingFragment"
+        tools:layout="@layout/fragment_user_ranking_list" />
+
+    <fragment
+        android:id="@+id/triviaListFragment"
+        android:name="ve.ucv.triviawars.ui.TriviaListFragment"
+        tools:layout="@layout/fragment_trivia_list" />
+
+    <fragment
+        android:id="@+id/triviaDetailFragment"
+        android:name="ve.ucv.triviawars.ui.TriviaDetailFragment"
+        android:label="{triviaTitle}"
+        tools:layout="@layout/fragment_trivia_detail">
+        <argument
+            android:name="triviaId"
+            app:argType="integer" />
+        <argument
+            android:name="triviaTitle"
+            app:argType="string" />
+    </fragment>
 </navigation>

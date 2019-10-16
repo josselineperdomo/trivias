@@ -13,11 +13,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import ve.ucv.triviawars.R;
-import ve.ucv.triviawars.viewmodels.SettingsViewModel;
 
 public class SettingsFragment extends Fragment {
-
-    private SettingsViewModel mViewModel;
 
     public static SettingsFragment newInstance() {
         return new SettingsFragment();
@@ -31,13 +28,6 @@ public class SettingsFragment extends Fragment {
             mainActivity.lockDrawerNavigation();
         }
         return inflater.inflate(R.layout.fragment_settings, container, false);
-    }
-
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(SettingsViewModel.class);
-        // TODO: Use the ViewModel
     }
 
 }
