@@ -5,12 +5,12 @@ import android.app.Application;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 
-import ve.ucv.triviawars.data.LocationLiveData;
+import ve.ucv.triviawars.livedata.LocationLiveData;
 
-public class HomeViewModel extends AndroidViewModel {
+public class LocationViewModel extends AndroidViewModel {
     private LocationLiveData locationLiveData;
 
-    public HomeViewModel(@NonNull Application application) {
+    public LocationViewModel(@NonNull Application application) {
         super(application);
         locationLiveData = new LocationLiveData(application.getApplicationContext());
     }

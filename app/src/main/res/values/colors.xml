@@ -12,4 +12,13 @@
 
     <color name="lightGray">#C8C8C8</color>
     <color name="darkGray">#646464</color>
+<!--    934CFC-->
+    <color name="almostWhite">#EBEBEB</color>
+    <color name="almostTransparent">#1AE1E1E1</color>
+
+    <color name="gold">#FFD700</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="bronze">#cd7f32</color>
+
+    <color name="zafiro">#66bb6a</color>
 </resources>

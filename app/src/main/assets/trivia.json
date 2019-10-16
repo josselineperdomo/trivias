@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "title": "Movies: General",
+    "description": "Excepteur esse qui anim sunt velit.",
+    "category": "Movies",
+    "imageUrl": "https://quizup-questions.imgix.net/topic-icons/movies-general-2015-04-24T14:55:54.519Z?fm=png&q=50&h=480&w=480",
+    "thumbnailUrl": "https://quizup-questions.imgix.net/topic-icons/movies-general-2015-04-24T14:55:54.519Z?fm=png&q=50&h=128&w=128",
+    "followers": 250,
+    "backgroundColor": "#74e3ac"
+  },
+  {
+    "id": 1,
+    "title": "General knowledge",
+    "description": "Cupidatat Lorem aliqua officia elit ad ullamco in magna. Reprehenderit irure aliquip ea non sint Lorem.",
+    "category": "General",
+    "imageUrl": "https://quizup-questions.imgix.net/topic-icons/general-knowledge-2014-10-29T12:55:44.225Z?fm=png&q=480&h=480&w=480",
+    "thumbnailUrl": "https://quizup-questions.imgix.net/topic-icons/general-knowledge-2014-10-29T12:55:44.225Z?fm=png&q=480&h=128&w=128",
+    "followers": 111,
+    "backgroundColor": "#f8be29"
+  },
+  {
+    "id": 2,
+    "title": "Mathematics",
+    "description": "Mollit sint adipisicing dolore in incididunt minim incididunt qui tempor nisi occaecat est sunt. Mollit duis culpa esse amet.",
+    "category": "Science & Techonology",
+    "imageUrl": "https://quizup-questions.imgix.net/topic-icons/math-easy-2014-10-28T21:03:43.094Z?fm=png&q=50&h=480&w=480",
+    "thumbnailUrl": "https://quizup-questions.imgix.net/topic-icons/math-easy-2014-10-28T21:03:43.094Z?fm=png&q=50&h=128&w=128",
+    "followers": 25,
+    "backgroundColor": "#60c4a8"
+  },
+  {
+    "id": 3,
+    "title": "Geography: General",
+    "description": "Mollit sint adipisicing dolore in incididunt minim incididunt qui tempor nisi occaecat est sunt. Mollit duis culpa esse amet.",
+    "category": "Geography",
+    "imageUrl": "https://quizup-questions.imgix.net/topic-icons/geography-general-2015-04-24T15:56:05.585Z?fm=png&q=50&h=480&w=480",
+    "thumbnailUrl": "https://quizup-questions.imgix.net/topic-icons/geography-general-2015-04-24T15:56:05.585Z?fm=png&q=50&h=128&w=128",
+    "followers": 45,
+    "backgroundColor": "#9773e6"
+  },
+  {
+    "id": 4,
+    "title": "Arts: General",
+    "description": "Mollit sint adipisicing dolore in incididunt minim incididunt qui tempor nisi occaecat est sunt.",
+    "category": "Art & Design",
+    "imageUrl": "https://quizup-questions.imgix.net/topic-icons/arts-general-2015-05-26T16:10:27.837Z?fm=png&q=50&h=480&w=480",
+    "thumbnailUrl": "https://quizup-questions.imgix.net/topic-icons/arts-general-2015-05-26T16:10:27.837Z?fm=png&q=50&h=128&w=128",
+    "followers": 125,
+    "backgroundColor": "#6adbca"
+  },
+  {
+    "id": 5,
+    "title": "Videogames: General",
+    "description": "Mollit sint adipisicing dolore in incididunt minim incididunt qui tempor nisi occaecat est sunt. Mollit duis culpa esse amet.",
+    "category": "Videogames",
+    "imageUrl": "https://quizup-questions.imgix.net/topic-icons/videogames-2015-04-24T14:24:18.814Z?fm=png&q=50&h=480&w=480",
+    "thumbnailUrl": "https://quizup-questions.imgix.net/topic-icons/videogames-2015-04-24T14:24:18.814Z?fm=png&q=50&h=128&w=128",
+    "followers": 260,
+    "backgroundColor": "#c1abf0"
+  },
+  {
+    "id": 6,
+    "title": "TV: General",
+    "description": "Excepteur esse qui anim sunt velit. Consequat labore culpa cillum quis aliqua do deserunt occaecat aliquip sint sunt quis quis.",
+    "category": "TV",
+    "imageUrl": "https://quizup-questions.imgix.net/topic-icons/tv-general-2015-04-27T22:24:21.973Z?fm=png&q=50&h=480&w=480",
+    "thumbnailUrl": "https://quizup-questions.imgix.net/topic-icons/tv-general-2015-04-27T22:24:21.973Z?fm=png&q=50&h=128&w=128",
+    "followers": 250,
+    "backgroundColor": "#f8be29"
+  }
+]

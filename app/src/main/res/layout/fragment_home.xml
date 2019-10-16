@@ -1,16 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/home_main_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".ui.HomeFragment">
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/home_main_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@null"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</LinearLayout>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mtrl_card_spacing">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/home_profile_avatar"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/female_1"
+                    android:layout_margin="10dp"
+                    android:elevation="5dp"
+                    app:civ_border_color="@color/magenta"
+                    app:civ_border_width="3dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/home_profile_fullname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.TriviaWars.Headline5"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:text="Josseline Perdomo"/>
+                    <TextView
+                        android:id="@+id/home_profile_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="\@josseline"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="2dp">
+
+                        <ImageView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/ic_coin_outline"/>
+
+                        <TextView
+                            android:id="@+id/home_profile_pts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="25dp"
+                            android:textAppearance="@style/TextAppearance.TriviaWars.Subtitle1"
+                            android:text="500"/>
+
+                        <ImageView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/ic_gem_outline"/>
+
+                        <TextView
+                            android:id="@+id/home_profile_prizes_pts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="25dp"
+                            android:textAppearance="@style/TextAppearance.TriviaWars.Subtitle1"
+                            android:text="500"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mtrl_card_spacing">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/my_trivia_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:drawableEnd="@drawable/ic_favorite"
+                    android:drawableTint="@color/magenta"
+                    android:textAppearance="@style/TextAppearance.TriviaWars.Headline6"
+                    android:text="@string/home_fav_trivia_title"
+                    android:textAllCaps="true"/>
+
+                <FrameLayout
+                    android:id="@+id/fav_trivia_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/my_trivia_title"/>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

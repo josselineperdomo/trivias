@@ -13,8 +13,6 @@ import androidx.viewpager.widget.ViewPager;
 import com.google.android.material.tabs.TabLayout;
 
 import ve.ucv.triviawars.R;
-import ve.ucv.triviawars.RankingFragment;
-import ve.ucv.triviawars.TopicsFragment;
 import ve.ucv.triviawars.adapters.DashboardPagerAdapter;
 
 public class DashboardViewPagerFragment extends Fragment {
@@ -54,8 +52,8 @@ public class DashboardViewPagerFragment extends Fragment {
         DashboardPagerAdapter pagerAdapter = new DashboardPagerAdapter(getChildFragmentManager());
 
         pagerAdapter.addFragment(getString(R.string.dashboard_tabs_home), new HomeFragment());
-        pagerAdapter.addFragment(getString(R.string.dashboard_tabs_topics), new TopicsFragment());
-        pagerAdapter.addFragment(getString(R.string.dashboard_tabs_ranking), new RankingFragment());
+        pagerAdapter.addFragment(getString(R.string.dashboard_tabs_trivia), new TriviaListFragment());
+        pagerAdapter.addFragment(getString(R.string.dashboard_tabs_ranking), new UserRankingFragment());
 
 
         return pagerAdapter;

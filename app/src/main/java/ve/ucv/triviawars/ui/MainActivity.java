@@ -89,8 +89,6 @@ public class MainActivity extends AppCompatActivity implements
                 .setPositiveButton(R.string.ok_dialog_action, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        // Here all the logic to the actual logout
-
                         Intent intent = new Intent(MainActivity.this, AuthActivity.class);
                         startActivity(intent);
                     }
