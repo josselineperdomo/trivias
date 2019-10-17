@@ -24,6 +24,9 @@ public class QuestionEntity {
     @ColumnInfo(name = "image_url")
     private String imageUrl;
 
+    @ColumnInfo(name = "sound_url")
+    private String soundUrl;
+
     @ColumnInfo(name = "points")
     private int points;
 
@@ -36,10 +39,11 @@ public class QuestionEntity {
     @ColumnInfo(name = "trivia_id")
     private int triviaId;
 
-    public QuestionEntity(int id, String question, String imageUrl, int points, String answer, List<String> incorrectAnswers, int triviaId) {
+    public QuestionEntity(int id, String question, String imageUrl, String soundUrl, int points, String answer, List<String> incorrectAnswers, int triviaId) {
         this.id = id;
         this.question = question;
         this.imageUrl = imageUrl;
+        this.soundUrl = soundUrl;
         this.points = points;
         this.answer = answer;
         this.incorrectAnswers = incorrectAnswers;
@@ -100,5 +104,13 @@ public class QuestionEntity {
 
     public void setTriviaId(int triviaId) {
         this.triviaId = triviaId;
+    }
+
+    public String getSoundUrl() {
+        return soundUrl;
+    }
+
+    public void setSoundUrl(String soundUrl) {
+        this.soundUrl = soundUrl;
     }
 }

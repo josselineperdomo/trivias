@@ -136,9 +136,9 @@
     "triviaId": 1,
     "points": 200,
     "question": "How would one say goodbye in Spanish?",
-    "answer": "Adi&oacute;s",
+    "answer": "Adios",
     "incorrectAnswers": [
-      " Hola",
+      "Hola",
       "Au Revoir",
       "Salir"
     ]
@@ -485,6 +485,7 @@
     "triviaId": 4,
     "points": 200,
     "question": "Who painted the Mona Lisa?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Mona_Lisa_detail_mouth.jpg/300px-Mona_Lisa_detail_mouth.jpg",
     "answer": "Leonardo da Vinci",
     "incorrectAnswers": [
       "Pablo Picasso",
@@ -544,6 +545,7 @@
     "triviaId": 4,
     "points": 200,
     "question": "What year was the Mona Lisa finished?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Mona_Lisa_detail_mouth.jpg/300px-Mona_Lisa_detail_mouth.jpg",
     "answer": "1504",
     "incorrectAnswers": [
       "1487",

@@ -49,5 +49,9 @@
     <string name="ranking_trivia_title">Ranking</string>
     <string name="home_fav_trivia_title">Favorite Trivia</string>
 
-    <string name="trivia_followers">%d</string>
+    <string name="numeric_value">%d</string>
+    <string name="q_counter">%d / %d</string>
+    <string name="question_points_title">Value</string>
+    <string name="play_again">Play Again</string>
+    <string name="your_score">Your Score: </string>
 </resources>

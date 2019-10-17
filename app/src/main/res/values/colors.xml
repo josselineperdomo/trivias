@@ -21,4 +21,8 @@
     <color name="bronze">#cd7f32</color>
 
     <color name="zafiro">#66bb6a</color>
+
+    <color name="warningColor">#FFD500</color>
+    <color name="correctGreen">#43a047</color>
+    <color name="errorRed">#d32f2f</color>
 </resources>

@@ -43,4 +43,36 @@ public class TriviaDetailViewModel extends AndroidViewModel {
         this.trivia.set(trivia);
     }
 
+    public Integer getTriviaId() {
+        TriviaEntity triviaEntity = this.trivia.get();
+        if (triviaEntity != null) {
+            return triviaEntity.getId();
+        }
+        return null;
+    }
+
+    public String getTriviaTitle() {
+        TriviaEntity triviaEntity = this.trivia.get();
+        if (triviaEntity != null) {
+            return triviaEntity.getTitle();
+        }
+        return null;
+    }
+
+    public String getTriviaImageUrl() {
+        TriviaEntity triviaEntity = this.trivia.get();
+        if (triviaEntity != null) {
+            return triviaEntity.getImageUrl();
+        }
+        return null;
+    }
+
+    public String getTriviaBackgroundColor() {
+        TriviaEntity triviaEntity = this.trivia.get();
+        if (triviaEntity != null) {
+            return triviaEntity.getBackgroundColor();
+        }
+        return null;
+    }
+
 }
