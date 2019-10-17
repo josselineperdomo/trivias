@@ -8,19 +8,24 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import ve.ucv.triviawars.R;
 import ve.ucv.triviawars.adapters.UserRankingRecyclerViewAdapter;
 import ve.ucv.triviawars.databinding.FragmentTriviaDetailBinding;
+import ve.ucv.triviawars.db.entity.TriviaEntity;
 import ve.ucv.triviawars.viewmodels.TriviaDetailViewModel;
 import ve.ucv.triviawars.viewmodels.TriviaDetailViewModelFactory;
 
@@ -34,6 +39,8 @@ public class TriviaDetailFragment extends Fragment {
     private FragmentTriviaDetailBinding binding;
     private UserRankingRecyclerViewAdapter userRankingRecyclerViewAdapter;
     private Context context;
+
+    private FloatingActionButton playFab;
 
     @Override
     public void onAttach(@NonNull Context context) {
@@ -61,6 +68,19 @@ public class TriviaDetailFragment extends Fragment {
         recyclerView.setLayoutManager(layoutManager);
 
         return view;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        playFab = view.findViewById(R.id.trivia_play_btn);
+
+        playFab.setOnClickListener(view1 -> {
+            TriviaDetailFragmentDirections.ActionToTriviaQuestions direction = TriviaDetailFragmentDirections
+                    .actionToTriviaQuestions(triviaDetailViewModel.getTriviaId(),
+                            triviaDetailViewModel.getTriviaTitle(), triviaDetailViewModel.getTriviaImageUrl(), triviaDetailViewModel.getTriviaBackgroundColor());
+            Navigation.findNavController(view1).navigate(direction);
+        });
     }
 
     @Override

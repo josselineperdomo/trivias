@@ -62,5 +62,55 @@
         <argument
             android:name="triviaTitle"
             app:argType="string" />
+        <action
+            android:id="@+id/action_to_triviaQuestions"
+            app:destination="@id/triviaQuestionsFragment"
+            app:popUpTo="@+id/triviaDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/triviaQuestionsFragment"
+        android:name="ve.ucv.triviawars.ui.TriviaQuestionsFragment"
+        android:label="{triviaTitle}"
+        tools:layout="@layout/fragment_trivia_question">
+        <argument
+            android:name="triviaId"
+            app:argType="integer" />
+        <argument
+            android:name="triviaTitle"
+            app:argType="string" />
+        <argument
+            android:name="triviaImageUrl"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_to_scoreFragment"
+            app:destination="@id/scoreFragment"
+            app:popUpTo="@+id/triviaDetailFragment" />
+        <argument
+            android:name="triviaBackgroundColor"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/scoreFragment"
+        android:name="ve.ucv.triviawars.ScoreFragment"
+        android:label="Score: {triviaTitle}"
+        tools:layout="@layout/fragment_score">
+        <argument
+            android:name="gameScore"
+            app:argType="integer" />
+        <argument
+            android:name="triviaId"
+            app:argType="integer" />
+        <argument
+            android:name="triviaTitle"
+            app:argType="string" />
+        <argument
+            android:name="triviaImageUrl"
+            app:argType="string" />
+        <argument
+            android:name="triviaBackgroundColor"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_to_triviaQuestionsFragment_from_playAgain"
+            app:destination="@id/triviaQuestionsFragment" />
     </fragment>
 </navigation>

@@ -1,5 +1,6 @@
 package ve.ucv.triviawars.db.dao;
 
+import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
@@ -18,11 +19,11 @@ public interface QuestionDao {
     @Query("DELETE FROM question")
     void deleteAll();
 
-    @Query("SELECT * from question WHERE trivia_id <> :triviaId ORDER BY RANDOM() LIMIT 1")
+    @Query("SELECT * FROM question WHERE trivia_id <> :triviaId ORDER BY RANDOM() LIMIT 1")
     QuestionEntity getTriviaNotBelongToTrivia(int triviaId);
 
-    @Query("SELECT * from question WHERE trivia_id = :triviaId ORDER BY RANDOM() LIMIT 10")
-    List<QuestionEntity> getTriviaQuestions(int triviaId);
+    @Query("SELECT * FROM question WHERE trivia_id = :triviaId ORDER BY RANDOM() LIMIT :size")
+    LiveData<List<QuestionEntity>> getTriviaQuestions(int triviaId, int size);
 
     @Query("SELECT COUNT(*) FROM question WHERE trivia_id = :triviaId ")
     int countQuestionsByTrivia(int triviaId);

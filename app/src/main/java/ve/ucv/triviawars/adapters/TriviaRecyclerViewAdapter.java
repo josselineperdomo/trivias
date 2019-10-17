@@ -65,7 +65,6 @@ public class TriviaRecyclerViewAdapter extends RecyclerView.Adapter<TriviaRecycl
             holder.triviaThumbnailImg.setBackgroundColor(Color.parseColor(trivia.getBackgroundColor()));
 
             holder.itemView.setOnClickListener(v -> {
-                Log.d("TriviaViewAdapter", String.format("Enviando id: %d", trivia.getId()));
                 DashboardViewPagerFragmentDirections.ActionToTriviaDetail direction = DashboardViewPagerFragmentDirections
                         .actionToTriviaDetail(trivia.getId(), trivia.getTitle());
                 Navigation.findNavController(v).navigate(direction);

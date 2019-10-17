@@ -4,10 +4,8 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-import ve.ucv.triviawars.model.Trivia;
-
 @Entity(tableName = "trivia")
-public class TriviaEntity implements Trivia {
+public class TriviaEntity {
     @PrimaryKey
     @ColumnInfo(name = "id")
     private int id;

@@ -60,8 +60,11 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
 
     implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation 'me.zhanghai.android.materialprogressbar:library:1.6.1'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    api 'com.google.guava:guava:28.1-android'
 }
